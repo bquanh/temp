@@ -1,0 +1,69 @@
+.author-date p {
+	display: inline-block;
+}
+
+.title {
+	margin-top: 100px;
+	margin-left: 200px;
+	margin-bottom: 80px;
+	position: relative;
+}
+
+.findmore-button {
+	color: white;
+	background-color: #FE036A;
+	padding: 8.5px 15px 8.5px;
+	border-radius: 10px;
+}
+
+.checked {
+	color: orange;
+}
+
+.rating {
+	margin-bottom: 10px;
+}
+
+.recipe-row {
+	position: relative;
+	margin-left: 200px;
+	display: grid;
+	grid-template-columns: 20rem 20rem 20rem 20rem;
+	grid-gap: 4rem;
+}
+
+
+@media screen and (min-width: 2500px) {
+
+	.recipe-row {
+		position: relative;
+		margin-left: 200px;
+		display: grid;
+		grid-template-columns: 20rem 20rem 20rem 20rem 20rem;
+		grid-gap: 4rem;
+	}
+}
+
+@media screen and (max-width: 1810px) {
+
+	.recipe-row {
+		position: relative;
+		margin-left: 200px;
+		display: grid;
+		grid-template-columns: 20rem 20rem 20rem;
+		grid-gap: 4rem;
+	}
+}
+
+
+/* Fix mobile view */
+/* @media screen and (max-width: 430px) {
+	.recipe-row {
+		position: relative;
+		margin: 0px;
+		justify-content: center;
+		display: grid;
+		grid-template-columns: 20rem;
+		grid-gap: 4rem;
+	}
+} */
